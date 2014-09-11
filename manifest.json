@@ -1,0 +1,14 @@
+{
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "icons": { "16"  : "16.png",
+              "48"  : "48.png",
+              "128" : "128.png" },
+   "manifest_version": 2,
+   "version": "1.1",
+   "name": "Nicolas Cage",
+   "description": "Replaces \"God\" with \"Nicolas Cage.\" May your Mountain Dew be sweet!"
+}
